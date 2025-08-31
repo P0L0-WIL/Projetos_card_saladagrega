@@ -1,0 +1,61 @@
+/* 1.reset css */
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box; /*box sizing é uma propriedade para não deixar os elemneto sairem da caixa*/
+    }
+/*2. estilos gerais para a página*/
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(251, 223, 163);
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    }
+.recipe-card{
+    width: 600px;
+    background-color: #f1bfbf;
+    border-radius: 5%;
+    box-shadow: 0 10px 90px;
+    overflow:hidden;
+}
+.recipe-image {
+    width: 100%;
+    display:block;
+}
+
+.recipe-content {
+    padding: 30px;
+}
+.recipe-title {
+    font: size 1.5em;
+    color:rgb(1, 120, 33);
+    margin: 0px 145px 15px 145px;
+    text-align: center;
+}
+.recipe-description {
+    font-size: 1.5rem; 
+    text-align: center;
+    line-height: 1.2;
+    color: #314448;
+    margin-bottom: 0;
+}
+.card-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0px 15px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
